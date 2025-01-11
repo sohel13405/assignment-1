@@ -160,13 +160,59 @@ nav button{
  
 /* younus */
 .yunus{
-    background-color: white;
-    
-    margin-top: 32px;
-    border-radius: 15px;
-    padding: 20px;
+    border-style:solid;
+    border-color: rgba(0, 0, 0, 0.161);
+     background-color: white;
+     margin-top: 32px;
+     border-radius: 15px;
+     padding:20px;
 }
 
 .img-abslt{
     position: absolute;
+}
+
+/* Recent News */
+
+.sec-tion{
+    width: 1280px;
+    margin: 0px auto;
+}
+
+.recent-news{
+    
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+
+
+.recent-divs{
+   padding:30px;
+   gap: 30px;
+    background-color: white;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between ;
+    border-radius: 15px;
+    margin-top: 30px;
+    
+}
+
+.img-satalite{
+    border-radius: 20px;
+}
+
+.btn-jazera{
+    background-color: #006A50;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-weight: bold;  
+}
+
+.space{
+    text-indent: 50px;
 }
