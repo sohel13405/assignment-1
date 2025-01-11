@@ -24,7 +24,9 @@ nav button{
     padding: 15px 30px;
     border-color: #006a5058;
     border-radius: 10px;
-    border:;
+    color: #006A50;
+    font-weight: bold;
+    
 }
 
 .banner-section{
@@ -56,4 +58,115 @@ nav button{
     color: white;
     font-size:medium;
     
+}
+
+/* shared style  */
+
+.text-color{
+    color: #0e0e0e92;
+}
+
+/* main  */
+
+.pillars{
+    width: 1280px;
+    height: 324px;
+    
+    margin: 0px auto;
+    margin-top: 60px;
+}
+
+.pillars-of{
+    font-size:large;
+}
+
+.all-pillars{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.innovation{
+   border-style:solid;
+   border-color: rgba(0, 0, 0, 0.161);
+    background-color: white;
+    
+    border-radius: 15px;
+    padding:20px;
+
+    
+}
+
+/* pillars section end  */
+
+.The-Vision{
+    width: 1280px;
+    height: 765px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+
+.Vision-of-Future{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.Digital-Transformation{
+    background-color: #548ff549;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.d-t-b{
+    background-color: #5490F5;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.Green-Energy{
+    background-color: #C6E4D6;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.g-e-b{
+    background-color: #09A15C;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-weight: bold; 
+}
+
+.Modern-Infrastructure{
+    background-color: #F7EBCF;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.m-i-b{
+    background-color: #FFC239;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-weight: bold; 
+}
+ 
+/* younus */
+.yunus{
+    background-color: white;
+    
+    margin-top: 32px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.img-abslt{
+    position: absolute;
 }
