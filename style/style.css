@@ -110,7 +110,6 @@ nav button:hover{
    border-style:solid;
    border-color: rgba(0, 0, 0, 0.161);
     background-color: white;
-    
     border-radius: 15px;
     padding:20px;
 
@@ -127,9 +126,11 @@ nav button:hover{
 }
 
 .Vision-of-Future{
-   display: flex;
-   justify-content: space-between;
-   gap: 25px;
+   display:flex;
+   gap: 40px;
+   
+   
+   
 }
 
 .Digital-Transformation{
@@ -140,7 +141,7 @@ nav button:hover{
 
 }
 .text-align{
-    text-align:left;
+    
 }
 
 .d-t-b{
