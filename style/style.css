@@ -1,8 +1,20 @@
+/* fonts  */
 
+
+
+.open-sans {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 /* body  */
 .bdy-bg{
     background-color: #F1F1F3;
+    margin: 0px auto;
 }
 
 
@@ -27,6 +39,10 @@ nav button{
     color: #006A50;
     font-weight: bold;
     
+}
+nav button:hover{
+    background-color:#C6E4D6;
+    color:#006A50 ;
 }
 
 .banner-section{
@@ -58,6 +74,10 @@ nav button{
     color: white;
     font-size:medium;
     
+}
+.btn:hover{
+    background-color:#dcd9c2;
+    color:#006A50 ;
 }
 
 /* shared style  */
@@ -107,16 +127,20 @@ nav button{
 }
 
 .Vision-of-Future{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+   display: flex;
+   justify-content: space-between;
+   gap: 25px;
 }
 
 .Digital-Transformation{
     background-color: #548ff549;
     padding: 20px;
     border-radius: 15px;
+   
 
+}
+.text-align{
+    text-align:left;
 }
 
 .d-t-b{
@@ -126,6 +150,10 @@ nav button{
     border-style: none;
     color: white;
     font-weight: bold;
+}
+.d-t-b:hover{
+    background-color:#C6E4D6;
+    color:#006A50 ;
 }
 
 .Green-Energy{
@@ -142,6 +170,10 @@ nav button{
     color: white;
     font-weight: bold; 
 }
+.g-e-b:hover{
+    background-color:#e3e4c6;
+    color:#006A50 ;
+}
 
 .Modern-Infrastructure{
     background-color: #F7EBCF;
@@ -156,6 +188,10 @@ nav button{
     border-style: none;
     color: white;
     font-weight: bold; 
+}
+.m-i-b:hover{
+    background-color:#C6E4D6;
+    color:#006A50 ;
 }
  
 /* younus */
@@ -189,20 +225,22 @@ nav button{
 
 
 .recent-divs{
-   padding:30px;
-   gap: 30px;
-    background-color: white;
-    display: flex;
-    justify-items: center;
-    justify-content: space-between ;
-    border-radius: 15px;
-    margin-top: 30px;
-    
+    padding:30px;
+    gap: 30px;
+     background-color: white;
+     display: flex;
+     justify-items: center;
+     justify-content: space-between ;
+     border-radius: 15px;
+     margin-top: 30px;
+ 
 }
 
-.img-satalite{
+.img-satalite {
     border-radius: 20px;
 }
+
+
 
 .btn-jazera{
     background-color: #006A50;
@@ -212,6 +250,10 @@ nav button{
     color: white;
     font-weight: bold;  
 }
+.btn-jazera:hover{
+    background-color:#C6E4D6;
+    color:#006A50 ;
+}
 
 .space{
     text-indent: 50px;
@@ -220,14 +262,17 @@ nav button{
 .donate-today{
     width: 1280px;
     margin: 0px auto;
+    margin-top: 80px;
 }
 
 .donate-h1{
     text-align: center;
+    margin-top: 32px;
 }
 
 .donate-p{
     text-align: center;
+    margin-top: 32px;
 }
 
 .cards{
@@ -280,23 +325,53 @@ nav button{
     color: white;
     font-weight: bold;  
     display: flex;
-    margin: 30px auto;
-    
-    
+    margin: 30px auto;  
 }
 
-/* .container { 
-  margin-top: 40px;
-    position: relative;
-    
-  }
+.btn-donate:hover{
+    background-color:#C6E4D6;
+    color:#006A50 ;
+}
 
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.ph-btn{
+    display: flex;
+    align-items: normal;
+}
+
+
+.btn-ph{
+    background-color: #006A50;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-weight: bold;  
+    display: flex;
+    margin: 0px auto;
+}
+
+/* footer  */
+.last-sectn{
+    width:100%;
+    height: 220px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 80px;
     
-  } */
+}
+.last-h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.line{
+    height: 1px;
+    width: 1000px;
+    background-color: #e1e0e081;
+    margin: 30px auto;
+}
+
+.social-icon{
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
