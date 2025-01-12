@@ -216,3 +216,87 @@ nav button{
 .space{
     text-indent: 50px;
 }
+
+.donate-today{
+    width: 1280px;
+    margin: 0px auto;
+}
+
+.donate-h1{
+    text-align: center;
+}
+
+.donate-p{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content:space-around;
+   
+}
+
+.t-k{
+   
+    background-color: white;
+    padding:40px;
+    border-radius: 15px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: #ebe8e8;
+}
+
+.tk-color{
+    background-color: #C6E4D6;
+}
+
+.in-place{
+    width: 50%;
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.inpt{
+    font-size: large;
+    font-weight: bold;
+    padding: 20px 0px;
+    width: 75%;
+    text-align: center;
+    display: flex;
+    border-style: none;
+    margin:30px auto;
+}
+
+.btn-donate{
+    background-color: #006A50;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-weight: bold;  
+    display: flex;
+    margin: 30px auto;
+    
+    
+}
+
+/* .container { 
+  margin-top: 40px;
+    position: relative;
+    
+  }
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  } */
